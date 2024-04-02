@@ -1,4 +1,4 @@
-require "date"
+# require "date"
 # write your program here
 require "date"
 
@@ -20,4 +20,9 @@ pp my_string
 require "./goodbye.rb"
 require "active_support/all"
 -134.ordinalize
-"table".pluralize
+"table".pluralize #
+pp "What's your name?"
+
+their_name = gets
+
+pp "Hello, " + their_name + "!"
