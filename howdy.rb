@@ -29,3 +29,10 @@ puts "Hello, " + their_name + "!"
 their_name = gets.chomp
 
 puts "Hello, " + their_name + "!"
+require "pry-byebug"
+
+f = "Your lucky number is "
+
+l = rand(100)
+
+pp f + l
